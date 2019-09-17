@@ -11,9 +11,13 @@ html,body{
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+#signature{
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    float: right;
+}
 
-
-.sidebar {
+.sidebar{
     height: 100%;
     width: 0;
     position: fixed;
