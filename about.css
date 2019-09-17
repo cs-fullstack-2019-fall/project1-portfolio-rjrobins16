@@ -52,7 +52,7 @@ html,body{
 
 /* The button used to open the sidebar */
 .openbtn {
-    font-size: 20px;
+    font-size: 30px;
     cursor: pointer;
     background-color: #93001F;
     color: white;
@@ -72,9 +72,13 @@ html,body{
 
 }
 #title{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-style: italic;
     grid-column-start: 2;
     grid-row: 1;
-    font-size: 24pt;
+    margin-bottom: 15px;
+    font-size: 52pt;
     color: white;
 }
 #photo{
