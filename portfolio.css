@@ -52,7 +52,7 @@ main{
 
 /* The button used to open the sidebar */
 .openbtn {
-    font-size: 20px;
+    font-size: 30px;
     cursor: pointer;
     background-color: #93001F;
     color: white;
