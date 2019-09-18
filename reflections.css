@@ -6,7 +6,6 @@ html,body{
     height: 100%;
 }
 
-
 .sidebar{
     height: 100%;
     width: 0;
@@ -63,5 +62,38 @@ html,body{
     font-family: 'Work Sans', sans-serif;
     transition: margin-left .5s; /* If you want a transition effect */
     padding: 20px;
+}
 
+header{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 48pt;
+    padding: 5px 0 20px 0;
+    color: white;
+    text-align: center;
+
+}
+
+#fullpage{
+    text-align: center;
+    color: white;
+    font-size: 18pt;
+}
+#caption{
+    text-align: center;
+    font-size: 16pt;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+iframe{
+    margin-top: 15px;
+    border: 2px solid #FB6100;
+    padding: 8px;
+    background: white;
+}
+
+a{
+    color: #F6BFCF;
 }
