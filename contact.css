@@ -1,0 +1,78 @@
+html,body{
+    background: #93001F;
+    font-family: 'Work Sans', sans-serif;
+    margin-right: 7px;
+    margin-left: 7px;
+    height: 100%;
+}
+.sidebar{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F6BFCF;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.6s;
+}
+
+/* The sidebar links */
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #93001F;
+    display: block;
+    transition: 0.3s;
+}
+
+
+.sidebar a:hover {
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* The button used to open the sidebar */
+.openbtn {
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #93001F;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+}
+
+.openbtn:hover {
+    background-color: #FB6100;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#sidebars {
+    font-family: 'Work Sans', sans-serif;
+    transition: margin-left .5s; /* If you want a transition effect */
+    padding: 20px;
+}
+
+#contactpage{
+    text-align: center;
+
+}
+#pgtitle{
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 48pt;
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
