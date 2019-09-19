@@ -129,3 +129,19 @@ font-size: 16pt;
     font-family: 'Playfair Display', serif;
     font-style: italic;
 }
+
+footer{
+    margin: 28px 0 20px 0;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 14pt;
+    color: #f1f1f1;
+}
+#title{
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 15px;
+    font-size: 52pt;
+    color: white;
+}
