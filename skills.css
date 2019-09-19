@@ -62,17 +62,53 @@ html,body{
     transition: margin-left .5s; /* If you want a transition effect */
     padding: 20px;
 }
-
-#contactpage{
-    text-align: center;
+#skillspage{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    height: 100%;
 
 }
 #pgtitle{
-    margin-bottom: 25px;
+    margin-bottom: 15px;
+    grid-column: 2/10;
+    grid-row: 1;
     text-align: center;
     font-size: 48pt;
     font-family: 'Playfair Display', serif;
     font-weight: bold;
     font-style: italic;
     color: white;
+}
+#edublock{
+    text-align: center;
+    padding-top: 30px;
+    background: white;
+    grid-row: 3;
+    grid-column: 2/6;
+}
+#icontable{
+
+    padding-left: 140px;
+    text-align: center;
+    background: #FB6100;
+    grid-row: 3;
+    grid-column: 6/10;
+    padding-top: 103px;
+}
+
+.sectiontitles{
+    grid-row: 2;
+    color: #F6BFCF;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 14pt;
+    margin-bottom: 10px;
+}
+#education{
+    grid-column-start:2;
+}
+#skills{
+    grid-column-end: 10;
+    text-align: right;
 }

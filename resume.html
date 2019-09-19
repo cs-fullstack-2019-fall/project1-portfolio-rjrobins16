@@ -2,8 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title> Rachel Robins - Reflections </title>
-    <link rel="stylesheet" href="reflections.css">
+    <title>Resume</title>
     <style>
         @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600&display=swap');
     </style>
@@ -13,27 +12,40 @@
     <style>
         @import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700i&display=swap');
     </style>
+    <link rel="stylesheet" href="resume.css">
 </head>
 <body>
 <div id="mySidebar" class="sidebar">
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
     <a href="about.html">About</a>
     <a href="#">Portfolio</a>
-    <a href="skills.html"> Skills + Education</a>
+    <a href="skills.html"> Skillset </a>
     <a href="contact.html">Contact</a>
     <a href="reflections.html">Reflections</a>
 </div>
+
 <div id="sidebars">
     <button class="openbtn" onclick="openNav()">&#9776; </button>
 </div>
-<section id="fullpage">
-<header> Weekly Reflections</header>
-    <p id="caption"> The following are my weekly reflections documenting my experience during <a href="https://www.code-crew.org/codeschool"> CodeCrew Code School</a>.
-        Read about my triumphs, challenges and more!
-    </p>
-<iframe src="https://theroad2code.tumblr.com/" width="1050" height="700"></iframe>
-</section>
 
-<script src="portfolio.js"></script>
+
+<div id="container">
+
+    <div id="rightside">
+        <section id="last">
+        <p id="title"> Resume <br>
+        </p>
+            <p id="textt"> Click the button below to download my resume.</p>
+
+        <a   id="buttonn"  href="Rachel%20Robins%20Resume.pdf" download="Rachel_Robins_Resume"> <button id="dlbtn"> Download </button> </a>
+            </section>
+    </div>
+
+
+<iframe id="resumeblock" src="Rachel%20Robins%20Resume.pdf" width="600" height="700"></iframe>
+
+</div>
+
+<script src="portfolio.js"> </script>
 </body>
 </html>
