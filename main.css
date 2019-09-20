@@ -2,6 +2,7 @@ html,body{
     height: 100%;
     font-family: 'Work Sans', sans-serif;
     color: #f1f1f1;
+
     background: #93001F;
 }
 body{
@@ -9,11 +10,11 @@ body{
 }
 main{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr ;
     text-align: center;
 
 }
-.sidebar {
+.sidebar{
     height: 100%;
     width: 0;
     position: fixed;
@@ -52,6 +53,7 @@ main{
 
 /* The button used to open the sidebar */
 .openbtn {
+    font-family: 'Playfair Display', serif;
     font-size: 30px;
     cursor: pointer;
     background-color: #93001F;
@@ -66,7 +68,6 @@ main{
 
 /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #sidebars {
-    font-family: 'Work Sans', sans-serif;
     transition: margin-left .5s; /* If you want a transition effect */
     padding: 20px;
 
@@ -79,6 +80,11 @@ main{
 
 }
 #top{
+    padding: 40px 75px 20px 75px;
+    /*font-family: 'Inconsolata', monospace;*/
+    font-size: 28pt;
+    line-height: 1.0;
+    color: #f1f1f1;
     grid-column: 1/11;
     grid-row: 1/4;
     background: #93001F;
@@ -95,9 +101,19 @@ main{
 
 }
 .nested{
+    font-size: 14pt;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     display: grid;
+}
+a.nested{
+    color: #FB6100;
+}
+a.nested:hover{
+    color: #93001F;
+}
+a:visited{
+    color: #FB6100;
 }
 #p11{
     grid-row: 1;
@@ -116,8 +132,6 @@ main{
     grid-column: 8/10;
 }
 
-
-
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
@@ -126,9 +140,23 @@ main{
 
 h1{
     font-family: 'Playfair Display', serif;
-    font-weight: bold;
     font-style: italic;
     margin-bottom: 15px;
     font-size: 52pt;
-    color: white;
+    color: #FB6100;
+}
+
+#logo{
+    float:right;
+}
+footer{
+
+    color: #050505;
+    font-family: 'Playfair Display', serif;
+    grid-row: 6;
+    text-align: center;
+    grid-column-start: 1;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    bottom: 0;
 }
