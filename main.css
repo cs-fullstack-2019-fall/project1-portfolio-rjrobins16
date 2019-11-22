@@ -93,7 +93,9 @@ main{
 
 
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) {
+@media screen and (max-height: 740px) {
+    .footer{}
+    .logo{width:100%}
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
 }
@@ -105,8 +107,10 @@ h1{
     color: #FB6100;
 }
 
-#logo{
-    grid-column: 1/11;
+.logo{
+    width: 45%;
+    padding-bottom: 2%;
+    text-align: center;
 }
 .footer {
 
