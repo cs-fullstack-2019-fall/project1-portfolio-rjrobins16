@@ -1,5 +1,5 @@
 html,body{
-    background: #cc978e;
+    background: white;
     font-family: 'Work Sans', sans-serif;
     margin-right: 7px;
     margin-left: 7px;
@@ -18,14 +18,16 @@ html,body{
 }
 
 .sidebar{
+    line-height: 6pt;
     font-family: 'Bebas Neue', cursive;
+    font-size: 30pt;
     height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #ed95ae;
+    background-color: #f4cbc6;
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.6s;
@@ -85,7 +87,7 @@ html,body{
     grid-row: 1;
     margin-bottom: 15px;
     font-size: 52pt;
-    color: white;
+    color: #cc978e;
 }
 #photo{
     grid-column-start: 2;

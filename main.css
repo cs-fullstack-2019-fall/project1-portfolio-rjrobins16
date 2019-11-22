@@ -14,14 +14,16 @@ main{
 
 }
 .sidebar{
+    line-height: 10pt;
     font-family: 'Bebas Neue', cursive;
+    font-size: 30pt;
     height: 100%;
     width: 0;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #ed95ae;
+    background-color: #f4cbc6;
     overflow-x: hidden;
     padding-top: 60px;
     transition: 0.6s;
@@ -39,15 +41,16 @@ main{
 
 
 .sidebar a:hover {
-    color: #f1f1f1;
+    color: #ed95ae;
 }
 
 /* Position and style the close button (top right corner) */
 .sidebar .closebtn {
+    padding-top: 30px;
     position: absolute;
     top: 0;
     right: 25px;
-    font-size: 36px;
+    font-size: 40px;
     margin-left: 50px;
 }
 
@@ -117,13 +120,17 @@ h1{
     text-align: center;
 }
 .w3-bar{
-    background: #f7edf0;
+    margin: 0;
+    background: white;
     font-family: 'Bebas Neue', cursive;
     font-size: 25pt;
     height: 100%;
     width: 100%;
 }
+.button1{
+    background: white;
+}
 .button1:hover{
-    color: #f4cbc6;
-    background: black;
+    color: #cc978e;
+    background: white;
 }
